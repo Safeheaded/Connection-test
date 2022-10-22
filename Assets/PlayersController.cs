@@ -25,10 +25,19 @@ public class RoomCodeDto
     public string code { get; set; }
 }
 
+public class EventDto
+{
+    public string event_name { get; set; }
+    public string nickname { get; set; }
+    public int id { get; set; }
+}
+
 public class PlayersController : MonoBehaviour
 {
     [SerializeField]
-    Player player;
+    Player playerPrefab;
+
+    private List<Player> players = new();
 
     int arrowUp = 0b00000000;
     int arrowLeft = 0b00000110;
@@ -75,7 +84,10 @@ public class PlayersController : MonoBehaviour
                 {
                     var userId = bytes[0];
                     var action = bytes[1];
-                    if (player == null)
+
+                    var player = players.Find(player => player.id == userId);
+
+                    if (playerPrefab == null || player == null)
                     {
                         return;
                     }
@@ -122,7 +134,11 @@ public class PlayersController : MonoBehaviour
                 }
                 else
                 {
-                    print(Encoding.UTF8.GetString(bytes));
+                    var wsEvent = JsonConvert.DeserializeObject<EventDto>(Encoding.UTF8.GetString(bytes));
+                    var addedPlayer = Instantiate(playerPrefab);
+                    addedPlayer.id = wsEvent.id;
+                    addedPlayer.userName = wsEvent.nickname;
+                    players.Add(addedPlayer);
                 }
             };
 
