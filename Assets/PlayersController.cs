@@ -135,10 +135,20 @@ public class PlayersController : MonoBehaviour
                 else
                 {
                     var wsEvent = JsonConvert.DeserializeObject<EventDto>(Encoding.UTF8.GetString(bytes));
-                    var addedPlayer = Instantiate(playerPrefab);
-                    addedPlayer.id = wsEvent.id;
-                    addedPlayer.userName = wsEvent.nickname;
-                    players.Add(addedPlayer);
+                    print(wsEvent.event_name);
+                    if(wsEvent.event_name == "player_added")
+                    {
+                        var addedPlayer = Instantiate(playerPrefab);
+                        addedPlayer.id = wsEvent.id;
+                        addedPlayer.userName = wsEvent.nickname;
+                        players.Add(addedPlayer);
+                    }
+                    else if(wsEvent.event_name == "player_removed")
+                    {
+                        var player = players.Find(player => player.id == wsEvent.id);
+                        Destroy(player.gameObject);
+                        players.Remove(player);
+                    }
                 }
             };
 
