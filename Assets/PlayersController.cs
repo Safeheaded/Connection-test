@@ -80,11 +80,42 @@ public class PlayersController : MonoBehaviour
                         return;
                     }
 
+                    // UP movement
                     if (action == (arrowUp | keyDown))
+                    {
+                        player.controls.top = true;
+                    }
+                    else if(action == (arrowUp | keyUp))
+                    {
+                        player.controls.top = false;
+                    }
+
+                    // Bottom movement
+                    if (action == (arrowDown | keyDown))
+                    {
+                        player.controls.bottom = true;
+                    }
+                    else if (action == (arrowDown | keyUp))
+                    {
+                        player.controls.bottom = false;
+                    }
+
+                    // Left movement
+                    if (action == (arrowLeft | keyDown))
+                    {
+                        player.controls.left = true;
+                    }
+                    else if (action == (arrowLeft | keyUp))
+                    {
+                        player.controls.left = false;
+                    }
+
+                    // Right movement
+                    if (action == (arrowRight | keyDown))
                     {
                         player.controls.right = true;
                     }
-                    else if(action == (arrowUp | keyUp))
+                    else if (action == (arrowRight | keyUp))
                     {
                         player.controls.right = false;
                     }

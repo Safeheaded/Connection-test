@@ -31,11 +31,28 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var movement = Vector3.zero;
+
+        if (controls.top)
+        {
+            movement.y = 1;
+        }
+
+        if (controls.bottom)
+        {
+            movement.y = -1;
+        }
+
+        if (controls.left)
+        {
+            movement.x = -1;
+        }
+
         if (controls.right)
         {
-            //transform.position += new Vector3(0, .05f, 0) * Time.deltaTime;
-            transform.Translate(Vector3.up * speed * Time.deltaTime);
-            print("moving");
+            movement.x = 1;
         }
+
+        transform.Translate(movement * speed * Time.deltaTime);
     }
 }
