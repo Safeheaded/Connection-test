@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.Text;
 using Mono.Cecil.Cil;
 using System;
+using TMPro;
 
 public class IncomingMessageDto
 {
@@ -37,6 +38,9 @@ public class PlayersController : MonoBehaviour
     [SerializeField]
     Player playerPrefab;
 
+    [SerializeField]
+    TextMeshProUGUI codeText;
+
     private List<Player> players = new();
 
     int arrowUp = 0b00000000;
@@ -64,6 +68,8 @@ public class PlayersController : MonoBehaviour
             var roomCode = JsonConvert.DeserializeObject<IncomingMessageDto>(resData).code;
 
             print(roomCode);
+
+            codeText.text = "Code: " + roomCode;
 
             // Connecting to WS
             websocket = new WebSocket("ws://127.0.0.1:8081/room/socket");
@@ -141,6 +147,7 @@ public class PlayersController : MonoBehaviour
                         var addedPlayer = Instantiate(playerPrefab);
                         addedPlayer.id = wsEvent.id;
                         addedPlayer.userName = wsEvent.nickname;
+                        addedPlayer.GetComponentInChildren<TextMeshProUGUI>().text = addedPlayer.userName;
                         players.Add(addedPlayer);
                     }
                     else if(wsEvent.event_name == "player_removed")
