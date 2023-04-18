@@ -57,12 +57,10 @@ public class Player : MonoBehaviour
 
         if(movement == Vector3.zero)
         {
-            print("Is idle");
             animator.SetBool("isRunning", false);
         }
         else
         {
-            print("Is running");
             animator.SetBool("isRunning", true);
         }
 
