@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -592.43, y: -277.18}
+  m_AnchoredPosition: {x: -592.42993, y: -277.46585}
   m_SizeDelta: {x: -1168.6777, y: 1.7624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4457160944688006771
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
-  m_fontSizeBase: 0.5
+  m_fontSize: 0.2
+  m_fontSizeBase: 0.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 3.0871592, w: 1.1092846}
+  m_margin: {x: 0, y: 0, z: 3.0871592, w: 1.4471095}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -238,6 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 11
   animator: {fileID: 0}
+  score: 0
 --- !u!61 &9163051197410416596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -262,7 +263,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 0.98}
+  m_Size: {x: 0.66, y: 0.89}
   m_EdgeRadius: 0
 --- !u!50 &325182528061790049
 Rigidbody2D:

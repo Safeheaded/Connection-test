@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     public Controls controls;
     public Animator animator;
     private SpriteRenderer renderer;
+    public int score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +71,12 @@ public class Player : MonoBehaviour
         }
 
         transform.Translate(movement * speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        score += 10;
+        Destroy(collision.gameObject);
+        GetComponentInChildren<TextMeshProUGUI>().text = string.Format("{0} - {1}", userName, score);
     }
 }

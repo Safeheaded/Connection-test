@@ -7568,7 +7568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7721,7 +7721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_LocalScale.y
@@ -7778,7 +7778,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419427839}
-  - component: {fileID: 1419427838}
   - component: {fileID: 1419427837}
   m_Layer: 0
   m_Name: fire_resper
@@ -7800,32 +7799,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collect: {fileID: 4303295314782345679, guid: fed23a82aa11a314bb8c8aeb49977bfc, type: 3}
---- !u!61 &1419427838
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419427836}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.24, y: 0.44}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 16.55, y: 8.9}
-  m_EdgeRadius: 0
 --- !u!4 &1419427839
 Transform:
   m_ObjectHideFlags: 0
@@ -7884,12 +7857,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530071612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 4.67, y: -2.11, z: -3.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1759745608
 GameObject:
@@ -8258,7 +8231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_LocalScale.x

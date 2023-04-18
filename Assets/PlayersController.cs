@@ -145,7 +145,7 @@ public class PlayersController : MonoBehaviour
                     if(wsEvent.event_name == "player_added")
                     {
                         int randomIndex = UnityEngine.Random.Range(0, 3);
-                        var addedPlayer = Instantiate(playerPrefab[randomIndex]);
+                        var addedPlayer = Instantiate(playerPrefab[randomIndex], Vector3.zero, Quaternion.identity);
                         addedPlayer.id = wsEvent.id;
                         addedPlayer.userName = wsEvent.nickname;
                         addedPlayer.GetComponentInChildren<TextMeshProUGUI>().text = addedPlayer.userName;
