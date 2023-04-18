@@ -61,14 +61,14 @@ public class Player : MonoBehaviour
             renderer.flipX= false;
         }
 
-        if(movement == Vector3.zero)
-        {
-            animator.SetBool("isRunning", false);
-        }
-        else
-        {
-            animator.SetBool("isRunning", true);
-        }
+        //if(movement == Vector3.zero)
+        //{
+        //    animator.SetBool("isRunning", false);
+        //}
+        //else
+        //{
+        //    animator.SetBool("isRunning", true);
+        //}
 
         transform.Translate(movement * speed * Time.deltaTime);
     }

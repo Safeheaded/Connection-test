@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FireRespawner : MonoBehaviour
 {
@@ -8,10 +9,10 @@ public class FireRespawner : MonoBehaviour
     [SerializeField]
     public Collect collect;
     private BoxCollider2D collider;
+    private bool wasStarted = false;
     void Start()
     {
         collider = GetComponent<BoxCollider2D>();
-        StartCoroutine(RespNewCollect());
     }
 
     IEnumerator RespNewCollect()
@@ -26,9 +27,22 @@ public class FireRespawner : MonoBehaviour
         }
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.P) && !wasStarted)
+        {
+            StartCoroutine(RespNewCollect());
+            wasStarted = true;
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            SceneManager.LoadScene("Scores");
+        }
     }
 }

@@ -9,6 +9,7 @@ using System.Text;
 using Mono.Cecil.Cil;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class IncomingMessageDto
 {
@@ -41,7 +42,10 @@ public class PlayersController : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI codeText;
 
-    private List<Player> players = new();
+    bool wasStarted = false;
+
+    public List<Player> players = new();
+    public static PlayersController instance;
 
     int arrowUp = 0b00000000;
     int arrowLeft = 0b00000110;
@@ -181,7 +185,27 @@ public class PlayersController : MonoBehaviour
         {
             websocket.DispatchMessageQueue();
         }
-        #endif
+#endif
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            players.Sort((p1, p2) =>
+            {
+                return p1.score.CompareTo(p2.score);
+            });
+            if (players.Count == 0)
+            {
+                PlayerPrefs.SetString("Winner", "None");
+            }
+            else
+            {
+                PlayerPrefs.SetString("Winner", players[0].userName);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.P) && !wasStarted)
+        {
+            StartCoroutine(FinishGame());
+            wasStarted = true;
+        }
     }
 
     private async void OnApplicationQuit()
@@ -189,5 +213,29 @@ public class PlayersController : MonoBehaviour
         if(websocket != null) {
             await websocket.Close();
         }
+    }
+
+    IEnumerator FinishGame()
+    {
+        yield return new WaitForSecondsRealtime(180);
+        players.Sort((p1, p2) =>
+        {
+            return p1.score.CompareTo(p2.score);
+        });
+        if(players.Count== 0)
+        {
+            PlayerPrefs.SetString("Winner", "None");
+        }
+        else
+        {
+            PlayerPrefs.SetString("Winner", players[0].userName);
+        }
+        SceneManager.LoadScene("Scores");
+    }
+
+
+    void Awake()
+    {
+        DontDestroyOnLoad(transform.gameObject);
     }
 }

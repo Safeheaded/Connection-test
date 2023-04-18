@@ -7849,6 +7849,7 @@ MonoBehaviour:
   - {fileID: 7956319038511459368, guid: 8d94922123817f145a19fc5ea48da270, type: 3}
   - {fileID: 7956319038511459368, guid: a95176a56ee69d148b27ecb604b6c44b, type: 3}
   codeText: {fileID: 1789918779}
+  players: []
 --- !u!4 &1530071614
 Transform:
   m_ObjectHideFlags: 0
@@ -7862,7 +7863,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1759745608
 GameObject:
@@ -8113,7 +8114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4273776486913216743, guid: f1d6f7837332c8746b801e06fed8568c, type: 3}
       propertyPath: m_LocalScale.y
