@@ -1,0 +1,6505 @@
+fileFormatVersion: 2
+guid: 712b75ec039970b458796fdc34184789
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest Props_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 563
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598997379f2db5e47beab2141ed5e27b
+      internalID: 1334802194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 577
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3131b1880de05d4988a579cd87bfcdc
+      internalID: -211519543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 578
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce38687e1b639146a6e725e07b71652
+      internalID: 2063211524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 578
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a18c9f758f3374e99c68cef3b2be3c
+      internalID: 674386076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 580
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c72f47020612a4daaf4ae8891f667a
+      internalID: -2048262750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 585
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4069fc67b32137743a2f5e3551750485
+      internalID: 420413813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 562
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ce71d74bf0374d9f534aacea20ec0
+      internalID: -444598167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 578
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56f73bf71f61249997c2cedb7b29ad
+      internalID: -289896045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 578
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde3e023928222d46a7b5d8cfe1c951d
+      internalID: -1015327404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 580
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab3279477642ac439ef48cadbb8a2af
+      internalID: -489521647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 581
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87334d7a2107474094d98286d68f3f1
+      internalID: -886005376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 578
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54687054bf64d1446906f0a80850d59a
+      internalID: -278114220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 562
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3380e89958bdaa347975aeaf5ea9ce97
+      internalID: -552736836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 562
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e0737b78c3da48b9d37aca01ebf88
+      internalID: 1373993795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 562
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb60c0becc0725844be8f88fb853dac7
+      internalID: -354366132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 567
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b647a43f184744b8ccf425b5442f8
+      internalID: 545618162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 568
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607b079c06fd204bac38908e28cf87a
+      internalID: -1559650633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 570
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd1fc75921710742b9904814697446c
+      internalID: 1215464716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 563
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185e6745eeb9264b94bc0147c5a620e
+      internalID: -1376619654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2f71bed4d1db345874a35e202a6d3a
+      internalID: -270306712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 562
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42375b5e823f4784eb8eecc20f114c5d
+      internalID: 116943418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 562
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53e45ebdb6b39c43813b3993110986f
+      internalID: 2042526808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_22
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 563
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16bca4c10e3da149818b10782fbe349
+      internalID: -1681010133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 565
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0710602b3b519c5448f33caa9c0edb1b
+      internalID: -688337266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 561
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f777808a0d9584f41a73ade213a3f523
+      internalID: 708628895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 562
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6404478735b4a44b94bd46bf9364e7
+      internalID: 17708982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 532
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6810072a4a773a744815e89b9576e066
+      internalID: 139729399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 532
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a28014f0e88eac44b59e9edad39c42b
+      internalID: -882615746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 533
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a49ee960d77294c9921c88a6da29ea
+      internalID: 1693445965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 531
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d65b2be1aca0da409953dca3a92fe4f
+      internalID: -2038964203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 530
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2addf09dfc541ad48babfbc8da931870
+      internalID: 1451111064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 545
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc97bdbf7a8430241bf2be5643963b9b
+      internalID: -1472410859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_32
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 546
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036225ed8911b1745a77040aa097d398
+      internalID: 935018755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_33
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 546
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45256550b7f678b44af31397f9c20acc
+      internalID: 530317876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_34
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 547
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f0d04aed308d64d91ded08eadf71c1
+      internalID: -42481154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 549
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce85ee4b560f074dbf7bb102483dd4c
+      internalID: 1349337964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616268fb8243a147b8fd73995bf331d
+      internalID: 687306697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a71bbfe46be4f4eaef778f2f7e36b5
+      internalID: -2112586817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 499
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa1baff77c98534bae22a61f6a5dafa
+      internalID: -1665983660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 513
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37caacc2324d9fc40bb550708b01293e
+      internalID: 1855060220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 514
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40f3458841403c469827c286c6ae8d4
+      internalID: 473067577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 514
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f2e22e3d122b243a040f8924b3fafc
+      internalID: 1316760016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 517
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d4844f1052f44e9c9ccda093a6b45
+      internalID: -676960322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_43
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 522
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06e0069673d58a4684138c896faf4b7
+      internalID: -1726595821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_44
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 515
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c47ff77f2f0742925ae18cae34630
+      internalID: -1453776262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_45
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 516
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56532f452c6a2fb4188a30c05362e1da
+      internalID: 1643810683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 507
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb2573146f40e84189d29ac7475fbe5
+      internalID: -653885095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 516
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2be7a5745fe9b43ae28d4808608ff0
+      internalID: -1010669610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 402
+        width: 75
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05220883d39ee0e479eddfc82450823d
+      internalID: 1638898308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_49
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 515
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5759146c23faee14d923e0274ae55ebc
+      internalID: -1536152170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_50
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 471
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e9bba81fd95b4d903bdd178791df2
+      internalID: -1512595163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 515
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e152c3219d38d45b5d0a131784ebff
+      internalID: -729785431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_52
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 514
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c0e800ece6424f8971ef593cdbab6
+      internalID: -249177577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 498
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f478514ac5cc1dc47b7dfd29c3ce994d
+      internalID: -1971209176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 498
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd063ebfa260a5d45a330f027a0a3fa6
+      internalID: 1686324168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd3d470da77c24b95f27be79aec867
+      internalID: 1754396244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_56
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 507
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6e23a56bd331145837e3f052dadd91
+      internalID: -1453794517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_57
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 502
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65e334076c00e348a2e9bd4d35337c2
+      internalID: 502800054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 502
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d8ce414783a6c448024946fe58fec5
+      internalID: -1812488502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 501
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca853cdea6a764cbf1aff6bc1ada4d
+      internalID: -1292607272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_60
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72096a28f2c5d4144b80b8953fe74dc1
+      internalID: 562411715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_61
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 509
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81b43207d99994d8a8664288f58ce1
+      internalID: -1839901102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_62
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 507
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032a800f7d420b341b43ccc8cb0f30e2
+      internalID: 1861050494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 504
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6509c3d601acd545b49ed17b2d57896
+      internalID: 1681847883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 505
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b264825a99c87a345aa8e993859b211a
+      internalID: 1858478983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 500
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b778328fd0e8204a869917d16eba3a5
+      internalID: -448862889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_66
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 500
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525902342fb814d4f83dd418ed884ca9
+      internalID: 1143949766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 498
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ab500c9f42bfa419fb2fbc203301f9
+      internalID: -1556193807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_68
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 499
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06be1bfc13d822c4ab76c20e69d8f755
+      internalID: -2118289811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_69
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 468
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea04c41653561e949a0408013ff08663
+      internalID: 13834789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_70
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 464
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfd06770e0e07d459ff7a7cd9533146
+      internalID: 1811686509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_71
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 469
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5b6fd4b56a4bd4fa24d6c68fc8b556
+      internalID: -2127874372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 467
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317fca519c392f84fa5dd9d97a139264
+      internalID: 912002130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 483
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91db697cb86a371479fb3b1098d51c74
+      internalID: -430379548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_74
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 484
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c097b16d9db2b458bd69c870d2a477
+      internalID: 1240000733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_75
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 475
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d306165f5118774690c5bc8c9b20af1
+      internalID: 859481896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 484
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6009eb75db6b834aa120ddf060a23a7
+      internalID: 1139337485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_77
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 468
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358946756adb47f4cb2deb64aeeaf315
+      internalID: -1269924089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_78
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 489
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a44b8c938bc61e42b97f7bb10874947
+      internalID: 1351120297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_79
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 483
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191f966036a496b4e93ef6eb7914e7f8
+      internalID: 236085583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_80
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 482
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3884d54abb68e9446aae76f693fba331
+      internalID: -1374263813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 484
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c6b4900836c3540bbe4bca283c123a
+      internalID: -358014143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_82
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 481
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c658a9bd03bd4f8e1100244027a67
+      internalID: -1530446382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_83
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 470
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0885bff2b9248dc4ab8cb7e9316af686
+      internalID: -1392831566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 470
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec6bc91b3f47134cb3c29ecd6aebe17
+      internalID: 199151449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_85
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 469
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ed91771db70c4d82f0070b8082eac
+      internalID: 372638558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_86
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 475
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e47f3263821e64982e5848f81d81dd
+      internalID: -2012417705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_87
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 477
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a53ad90dfd7e4d921e484d4139dc4
+      internalID: 1877830922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_88
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 475
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df7e7f2a92054b40bd0d0969ed95198
+      internalID: 1494004014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 466
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db502546e7a9f34caefdf1484a0601e
+      internalID: 1477232883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_90
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 466
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdc0b73c0a6f3f48b90de403ccfa6cc
+      internalID: -565692185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_91
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09bb66ff28b6974ea94baeda046c273
+      internalID: 1897106026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_92
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 468
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6b85f2c6a17634294dcf0bd8f10f39
+      internalID: 528153721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_93
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 471
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e16240c3cac7924cb56a5d0b935c04d
+      internalID: 478200115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_94
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 468
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704805d9516fc074082391b918bea7bd
+      internalID: -580246017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_95
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 451
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3614b2a97a19c6d44b58698e42b90d97
+      internalID: -662921440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_96
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 452
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2549ee1afe017b4089eb482b872ed9d
+      internalID: 922408074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_97
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 443
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac10cc97f2481a48a9156b4f8a79a2e
+      internalID: -230979148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 452
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b89f158eea07d448f01d0a51731c70
+      internalID: -911698787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_99
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 436
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f532f4d4c250f6d43ae4278824b38ddd
+      internalID: 2127247954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_100
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 457
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55162dc0072ed0e46a6cbaed184e80ec
+      internalID: 512202382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 449
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc633a0497b8443b6864cb5fe77b3e
+      internalID: 1204575422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_102
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 453
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1cc1f87383bee49af73ce33cc2d343
+      internalID: -511617817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_103
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 449
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dad749bb0cfe6409381c861a140c49
+      internalID: -544240984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_104
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823d3d2f49965f4ca4e2319402ff6c7
+      internalID: 1249293295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_105
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 449
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dd53a2d07d22f4bbc129671078f491
+      internalID: 1700178660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_106
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 404
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e12433709ec04788e19f4b2c60ff5
+      internalID: -680870107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_107
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 404
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17de838d4ac84324a8bbd72400b03ffa
+      internalID: -750852093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_108
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 451
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ecbee5d35d54a419dab52e0f2b9041
+      internalID: 1952669959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_109
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 450
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59360a2232c3f418f270dcede60e63
+      internalID: 181651434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_110
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 452
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef062c807cb838448917233bbf570745
+      internalID: -1270795958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_111
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 442
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f14f3df11860224e9391b54c5081b06
+      internalID: -1716603701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_112
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 438
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c386141ecee4b134ba019eaa6c508aec
+      internalID: -180991735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_113
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 438
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b537a9bf6c38f42bcabcebd4c4040e
+      internalID: 1334756104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 437
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4460a575e2e76b34d9314fdadb0e6dd6
+      internalID: -1599656194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_115
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 443
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875d0cdd4ccf534aa73d00d297471bf
+      internalID: 680165302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_116
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 445
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e8bb765211ce045b47abc187ffce5d
+      internalID: 22878244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_117
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 443
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3facae8ea1614d640bdf6f6d092dfab0
+      internalID: -1758958443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_118
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 434
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353d97cf900c7e40b8525da28457e87
+      internalID: 276817281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_119
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f866913d064614e88eee4a347d9f23
+      internalID: -439535713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_120
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 436
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88cbc2e26a9f62439f4c382cfb9b151
+      internalID: 1957196695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_121
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 436
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f5e5c629f1269428a8005c8f40bd29
+      internalID: -1060912342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_122
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 419
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd8ff6d854fbf41ab69b03996e9d34
+      internalID: 1652850774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_123
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 419
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a872e44276e5af141a05185d627df12d
+      internalID: 341382182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_124
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 420
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb1e54a981d09648a1826ad8ebe2110
+      internalID: 262051217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_125
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 411
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c4f76858d6ae45a661ffec47b3647
+      internalID: 1257106836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_126
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 420
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b86bc516a792d4e8440fecf3aefdd8
+      internalID: -754868356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_127
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 418
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72b79c8b0457541881fa3a254a4612
+      internalID: -585950699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_128
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 404
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088267e41bdd0e4439ed9cf2f356ae42
+      internalID: 591819689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_129
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 417
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bfead3328f2704fa16b626c3d9c5eb
+      internalID: 452334093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_130
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 421
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df4353a4fd21164f94d88c94fc66a26
+      internalID: -893982125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_131
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 417
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e609a6e11445614d925c4fad47b5429
+      internalID: 436389531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_132
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 416
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f424a4209f22f654582b6339584f8dec
+      internalID: -1965005746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_133
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 417
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77799372dc5eebf4d87a4d40a159db46
+      internalID: -928290627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_134
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 406
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dd570945a10284b9edc1fe2d454bad
+      internalID: -1738141149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_135
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 406
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee2d7000bf065146aed4b39c681cd69
+      internalID: -159512110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 405
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214924751719934b8451ee887d69edf
+      internalID: 1550766986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_137
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 411
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96deaa69b39ea84098cc2781b5f6a9e
+      internalID: 420735350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_138
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 413
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a138725db43824d990e8286eef780c
+      internalID: -856051592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_139
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 411
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7877a286ebbff468093c0a09a5d7f8
+      internalID: -54871982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_140
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 392
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d5cdc01e817e448860c6c05c8717f
+      internalID: -1321617348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_141
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 409
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eef39beec6e8f4a916e5125e7d893c
+      internalID: 666721283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_142
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 404
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f693b24fce7144a40a491e2ba7ee1d79
+      internalID: 1892955581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 339
+        width: 76
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7573f0bf74e1a7d49851c4189794ddf5
+      internalID: -125254840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_144
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 339
+        width: 102
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1e4b42cddccd94aa03fac7c3aaf4ff
+      internalID: 956279559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_145
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 387
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1a6eb9b583f3541bd63549f84fd865
+      internalID: 1427464710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_146
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 387
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61fb50fd08cef541933f5f4a7c9481a
+      internalID: 511988705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_147
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 388
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab82ab49e324fc94c952d9071060d153
+      internalID: -1312838847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_148
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 379
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3433d92fa92d6dc4b961e14dc5df1463
+      internalID: 2664454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_149
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 388
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94036a3946562034b8cd4d69e9bb7ef4
+      internalID: -466022272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_150
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 386
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea3cba38daba92449493ac75ad49f0f
+      internalID: -80289849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_151
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 372
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100bcc6a6579f54db38b96ebaf47f7a
+      internalID: -944442411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_152
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 388
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eef4717cc81db14288acaa6f0f0f292
+      internalID: -1157889487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_153
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 370
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d33bd8f405574b96ee2fa7017dfb8
+      internalID: -1911217336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_154
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 388
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fb01819d605ee4f9d20954fbf2be31
+      internalID: 764821624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_155
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 371
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe637d9f4965e345b5aba7b43a82376
+      internalID: -1764675820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_156
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 370
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb7c6fab455984080246218bcc8d9d
+      internalID: -913499695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_157
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 374
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adf3d7b94830754d8e6b5e8e8543502
+      internalID: 987886961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_158
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 374
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ab86d8019ddb41be296b92fe7f89c
+      internalID: -974866485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_159
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 373
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c42d97d63509f42a5fc27b925e769a
+      internalID: 494051620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_160
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 379
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b397f4d920e87e7438eb29d7108b40d9
+      internalID: 1459320979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_161
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 381
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b817c524966c3c4bbcca437451f078c
+      internalID: 1661023565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_162
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 379
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165b1aba57435f46a627c9d9bc70b53
+      internalID: 1550347656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_163
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 372
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85618b7d3bc4b7f439f91cf83560eb26
+      internalID: 589149183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_164
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 371
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829426fbe359c7149abd734a870f4d0a
+      internalID: -1004943917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_165
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 355
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a5d2992209376478ea9680c6bc1476
+      internalID: 1258714707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_166
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 356
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f734086dd05854ca9c0c3021e55a4b
+      internalID: -60575392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_167
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 347
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476ee3caf91d9e04cafaa7cda118b12b
+      internalID: -685429907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc00feddd5524b4594e8c8861f3087d
+      internalID: 578197191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_169
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 340
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63f86faf62fcb642bec785b1f143094
+      internalID: -460174674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_170
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4aaad6e270e44d9b4794bd8ba2ba1
+      internalID: 582085616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_171
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 360
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66541272a9ce9ce49a417d58637c84df
+      internalID: 206687135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_172
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 358
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9bb6d892e3577418cfd03d7cb21902
+      internalID: 1233070918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_173
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 355
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d717661552fe04449af067bf6098e460
+      internalID: 1587941799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_174
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 354
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8323ad0d17187414b823c56186d86fb7
+      internalID: -307605650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_175
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 355
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac2dce491a505640958dd4d97911136
+      internalID: -2079474010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_176
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 342
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbbd2d383354db4da4cb6ff130cd6a7
+      internalID: -2127160167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_177
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 342
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c3026d9e258484aa504a7841c5cf21
+      internalID: -298206771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_178
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 341
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f78d8dfcd678e1449c567c97ce2ffb1
+      internalID: 1743503685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_179
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 347
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f38461124f1d4f8db5275aa4282af
+      internalID: 617647668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_180
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 349
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53030ddf4e550b847a7c49be850150dd
+      internalID: 1100977958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_181
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 347
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee57b2f33b88b45bc03a84248faae6
+      internalID: -1196928112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_182
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6c2b11b7c1af6418a68b47c27e725f
+      internalID: -1345526693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_183
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 340
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb55e0b452deaad469c8b75ecb3fbfeb
+      internalID: -2064152748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_184
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 323
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562a9d13a5b13e44f859d3e5cbce1bc6
+      internalID: -1938513076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_185
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 323
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf10654cb06d794d9564b2d17a5d87b
+      internalID: 941260395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_186
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 323
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c6ffe2920e174794a3546e13e8b5c
+      internalID: -857698025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_187
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 306
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d2e4dff8d3aa469a18cb5253e5b6d
+      internalID: 1543827941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_188
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 308
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710ec1e7318da404482f66c6cce65f24
+      internalID: -1859607072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_189
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 308
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc525f3462788e34ab2b6f2fa2e3eca2
+      internalID: -1152162379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_190
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 308
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ccd74b4a9dcc24cbed9a8382eaac45
+      internalID: 501783342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_191
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 307
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23870e84d26b03d46be255232d224bcc
+      internalID: -1369243461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_192
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 307
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4aec6bdba63304d86d2e0a9f5c4c42
+      internalID: -1027701704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_193
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 307
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9417c14940972c246844f65fd9f89847
+      internalID: -937916638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_194
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 258
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67fe4b650305ec4094b9be35eb9612a
+      internalID: -402786860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_195
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 258
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10939e423338ceb489284b0e3e1b29e4
+      internalID: -840937275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_196
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 258
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92113c0d196f14147ae613f38d27484c
+      internalID: 2036286255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_197
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 225
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3a5243761918f4e9fc6dce728775c0
+      internalID: -2064802922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_198
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3c4cc184cea6246969c99934764432
+      internalID: -1739107519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_199
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 224
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b91f640b99a7e409a401f1e649f665
+      internalID: -1396130077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_200
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 225
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec66a2a354579a848b8661bc343a9e7f
+      internalID: 417009952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_201
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 243
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2abb48e01eaea449b1dd02569320b66
+      internalID: 112211159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_202
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 248
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55083804ad99140498b8f4b24a831e4f
+      internalID: -406245526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_203
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83613d6e2b05446a4ef9835c7235eb
+      internalID: 402101304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_204
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 231
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7a9c652a446a4ea446dbac492ef47
+      internalID: 5082101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_205
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 225
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74e9b3f6a32f0444967b6776ff38e7d
+      internalID: -745177422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_206
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 233
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65185a473d26bd44a901d2ab73e21b8f
+      internalID: -1667002592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_207
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 226
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d125ca8f79b803479ebe00b105f0c44
+      internalID: -140302516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_208
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af63aab74e1fc478b5729013d57d64
+      internalID: -504016293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_209
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 193
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b66c8e74dcabf41a1a6daf28174487
+      internalID: 1800587539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_210
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 193
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69c73c028db8724287232a3bfb6cfe3
+      internalID: -1845406348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_211
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e4510150328d4aa21324e2facf5c2
+      internalID: 974956945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_212
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb5aba883877394690c9143e40d6d56
+      internalID: 1369126262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_213
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 160
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32134e724ab7669458332f0e5b0b5f5b
+      internalID: 2125527087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_214
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be641bf55ddff074a92b31e77bae8b57
+      internalID: -1667402113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_215
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 177
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c815f401202a3a47a49f35970fc5990
+      internalID: 3628374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_216
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ec81d06b732144828cfb3404e9bf0
+      internalID: 508149245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_217
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 184
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a09ce57a555e0439a2c4944c8adf5a
+      internalID: -785437219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_218
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 176
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba60b3b3617d74dad42b89563e9717
+      internalID: 2012724468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_219
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 177
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3ac005928062d4f8ba64e0af50844a
+      internalID: 1790635787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_220
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 167
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb4bb08da6d984bbedc40987079a68
+      internalID: -39842901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_221
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 160
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c32e1acc7e8c7b43b1be8f9a41179de
+      internalID: -1066216205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_222
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 185
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52177cb5ed00704c8a061a6b7fdc890
+      internalID: 528024923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_223
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 182
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed27a430899ee44faddf14e67527e66
+      internalID: 1815931928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_224
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ef761d1f6b1f244b3b318f7eb95745
+      internalID: 1729454861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_225
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 179
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09434857fcd93c54da153cf4575f768c
+      internalID: 1800133715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_226
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd5bbb729ed3774090ebaef31ef301d
+      internalID: 132180094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_227
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e639c96563bfdb24ba8849ed17c19406
+      internalID: 182054398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_228
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 167
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8f4abda9d7dc4c8b68d25e28cc262
+      internalID: 486275380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_229
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 161
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee37ca5a64deac44b9a75e2a303269ac
+      internalID: 1692463500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_230
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fd9ad3a8342f4281cfd952b5d3cd4
+      internalID: -1171581373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_231
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 162
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6e918d1e18f340bb80fd3ff8276db
+      internalID: 298261796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_232
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 162
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330538d7d94524c4eab2b7093a7fffa5
+      internalID: -1451329761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_233
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 162
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda834295b0046c469aa572a6357c04c
+      internalID: -653607570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_234
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 162
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0420d88feb6225408a51d7127b497a9
+      internalID: -1602906300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_235
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 161
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d719d44c8fa31684ba92ad2eab7fac23
+      internalID: -1739369868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_236
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 132
+        width: 11
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb2806129adf8429f2e59038a76165
+      internalID: 631268769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_237
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289053d57ee0cce4fa6ff8f5d8caccd6
+      internalID: -320504461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_238
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 161
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc4f3fdc0228fe44b7c260b402da2bd
+      internalID: -773083300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_239
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 163
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be939a542fa30943a49a888ce388b7b
+      internalID: -263949283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_240
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 129
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d3a8b7b7900dd43bc59780454cd3b5
+      internalID: 63681696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_241
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 129
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22878018aa2de034abac5a53af25ae95
+      internalID: -2144912744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_242
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 129
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a61baf9cbf76b04caffcc521de9dab6
+      internalID: -738417754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_243
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ace3f4e5e34074bbbed1f7a69b6f4a
+      internalID: -596037334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_244
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580936f7cb8a5d247976fdfe262e4853
+      internalID: -1171780076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_245
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1615495fcf97c4047b97903c27f7ff43
+      internalID: 1707818000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_246
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 130
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e3c152cb969164aaed18b80dbceac9
+      internalID: -1713179629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_247
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 130
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31240f4483effab408d3714a831770d2
+      internalID: -778248289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_248
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 145
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84abb4cc04b72224daa21e720963c7e2
+      internalID: -351656655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_249
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 129
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dac168e6bd13c8419d75693cdba135d
+      internalID: 62848212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_250
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 135
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa6238e41e5204cb09bd2761ecff78
+      internalID: -1942709592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_251
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 128
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3a57e6b8fc5ff4a9a808622abe4107
+      internalID: -892846835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_252
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 130
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6a7c3eb362696418bcf5e3da43e773
+      internalID: -579570713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_253
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede15c3b7fa2537409b83881f9cae186
+      internalID: 220357654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_254
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7274ddc333a04468c39561b465e6fb
+      internalID: 1956248022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_255
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 112
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4902a50dbf9a85145b6aeff43ab681c1
+      internalID: 219984173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_256
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 113
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21adde00791165b46b2a2ecd1caa48fa
+      internalID: -1614518814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_257
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 103
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bc131374664fd4db92299cb382e568
+      internalID: -262027588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_258
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 96
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd1e6eea9da894391acaa9b2e7ae85
+      internalID: -1818929633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_259
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 98
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673a744d03a89745bcdd7530e1553e1
+      internalID: 1204977022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_260
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 98
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f91a94f5f30174b906299a4e7b3f52
+      internalID: -1834908370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_261
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 98
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db0f651a21090843b5bf3120f1e3bc6
+      internalID: -941696916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_262
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 97
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1957e14b98fa6348bbb8bb155309b53
+      internalID: -310532200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_263
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 80
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2509309cb7cc15f429a440c65612f36f
+      internalID: 682724390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_264
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f74298608b72c4f80f576d972fbfce
+      internalID: 2001312852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_265
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 71
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aae9f0c5fa6084eaa9f1931d50bb07
+      internalID: 1882516772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_266
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 64
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2a79201afbc3f44a9b1c67ee7b9ffc
+      internalID: -1266259691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_267
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df51c458bdab9e4884317d855dd5f0e
+      internalID: -576373478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_268
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d2422f23ccae1418bc2f1c0c004595
+      internalID: -914396245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_269
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 66
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baf1e288a1dcf34f8b0b8f42029dfda
+      internalID: -1436506123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_270
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 65
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de44fe530eb5d514896e1a403bb3a575
+      internalID: -65152806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_271
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d139341d8fab8ff48b798ef59f99c1d1
+      internalID: 1163720392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_272
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23ccb4690232c2429fcb0502d79901f
+      internalID: 538265848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_273
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924686eb9e6545441a5e5c69b98f1923
+      internalID: 1412135698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_274
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 49
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab16d55309fc7ae4d9d83419c7416fd6
+      internalID: -1725529273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_275
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 39
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06997abbbd4bab4fba73ae670ad1441
+      internalID: 499287384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_276
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 32
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02cd899242ca2441bf29ea1fa07f95b
+      internalID: 2009118462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_277
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 34
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f9a4e02fa0db149a497e350027a2af
+      internalID: 724297577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_278
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 34
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfec22105c74764aa3f8be1b9c56c09
+      internalID: 2138463853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_279
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 34
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d12ee0d939f614419c20405bc039f2a
+      internalID: -1260711116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_280
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 33
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4719f2d189fdb6409ba29459aab02c4
+      internalID: -515232650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_281
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb2081326b942428d51e36b8417b89
+      internalID: -1605810973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_282
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 17
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62818f6150546c4bbbc3b6ee687d091
+      internalID: -1876841975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_283
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 7
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10276d95c42295346a198ccaee87396d
+      internalID: 1736946049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_284
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd67c10d81813b24db349026ab29848a
+      internalID: 1203304212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_285
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d71ead966e93a0418babe0f3bf041d5
+      internalID: -240659471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_286
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd93dc5c51b4ca4782c70fff80046f5
+      internalID: -1988540785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_287
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cc8e750cfeb6947931c5cd2642e040
+      internalID: -1195088855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Props_288
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1797e40091c434d881b30884fa2631
+      internalID: 632990137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Forest Props_107: -750852093
+      Forest Props_196: 2036286255
+      Forest Props_270: -65152806
+      Forest Props_247: -778248289
+      Forest Props_142: 1892955581
+      Forest Props_71: -2127874372
+      Forest Props_119: -439535713
+      Forest Props_128: 591819689
+      Forest Props_30: 1451111064
+      Forest Props_110: -1270795958
+      Forest Props_108: 1952669959
+      Forest Props_183: -2064152748
+      Forest Props_138: -856051592
+      Forest Props_62: 1861050494
+      Forest Props_15: 545618162
+      Forest Props_54: 1686324168
+      Forest Props_117: -1758958443
+      Forest Props_140: -1321617348
+      Forest Props_95: -662921440
+      Forest Props_125: 1257106836
+      Forest Props_246: -1713179629
+      Forest Props_251: -892846835
+      Forest Props_84: 199151449
+      Forest Props_111: -1716603701
+      Forest Props_255: 219984173
+      Forest Props_91: 1897106026
+      Forest Props_190: 501783342
+      Forest Props_14: -354366132
+      Forest Props_1: -211519543
+      Forest Props_132: -1965005746
+      Forest Props_94: -580246017
+      Forest Props_229: 1692463500
+      Forest Props_90: -565692185
+      Forest Props_98: -911698787
+      Forest Props_220: -39842901
+      Forest Props_241: -2144912744
+      Forest Props_179: 617647668
+      Forest Props_5: 420413813
+      Forest Props_227: 182054398
+      Forest Props_269: -1436506123
+      Forest Props_286: -1988540785
+      Forest Props_33: 530317876
+      Forest Props_47: -1010669610
+      Forest Props_193: -937916638
+      Forest Props_146: 511988705
+      Forest Props_16: -1559650633
+      Forest Props_46: -653885095
+      Forest Props_148: 2664454
+      Forest Props_68: -2118289811
+      Forest Props_170: 582085616
+      Forest Props_268: -914396245
+      Forest Props_81: -358014143
+      Forest Props_147: -1312838847
+      Forest Props_118: 276817281
+      Forest Props_32: 935018755
+      Forest Props_99: 2127247954
+      Forest Props_28: 1693445965
+      Forest Props_79: 236085583
+      Forest Props_175: -2079474010
+      Forest Props_159: 494051620
+      Forest Props_235: -1739369868
+      Forest Props_155: -1764675820
+      Forest Props_143: -125254840
+      Forest Props_141: 666721283
+      Forest Props_21: 2042526808
+      Forest Props_211: 974956945
+      Forest Props_153: -1911217336
+      Forest Props_221: -1066216205
+      Forest Props_3: 674386076
+      Forest Props_136: 1550766986
+      Forest Props_262: -310532200
+      Forest Props_233: -653607570
+      Forest Props_257: -262027588
+      Forest Props_66: 1143949766
+      Forest Props_77: -1269924089
+      Forest Props_74: 1240000733
+      Forest Props_75: 859481896
+      Forest Props_42: -676960322
+      Forest Props_215: 3628374
+      Forest Props_93: 478200115
+      Forest Props_20: 116943418
+      Forest Props_109: 181651434
+      Forest Props_97: -230979148
+      Forest Props_53: -1971209176
+      Forest Props_41: 1316760016
+      Forest Props_232: -1451329761
+      Forest Props_126: -754868356
+      Forest Props_121: -1060912342
+      Forest Props_177: -298206771
+      Forest Props_56: -1453794517
+      Forest Props_261: -941696916
+      Forest Props_283: 1736946049
+      Forest Props_135: -159512110
+      Forest Props_224: 1729454861
+      Forest Props_222: 528024923
+      Forest Props_139: -54871982
+      Forest Props_275: 499287384
+      Forest Props_10: -886005376
+      Forest Props_57: 502800054
+      Forest Props_65: -448862889
+      Forest Props_249: 62848212
+      Forest Props_120: 1957196695
+      Forest Props_216: 508149245
+      Forest Props_122: 1652850774
+      Forest Props_181: -1196928112
+      Forest Props_113: 1334756104
+      Forest Props_178: 1743503685
+      Forest Props_267: -576373478
+      Forest Props_34: -42481154
+      Forest Props_228: 486275380
+      Forest Props_92: 528153721
+      Forest Props_24: 708628895
+      Forest Props_131: 436389531
+      Forest Props_189: -1152162379
+      Forest Props_236: 631268769
+      Forest Props_59: -1292607272
+      Forest Props_87: 1877830922
+      Forest Props_106: -680870107
+      Forest Props_238: -773083300
+      Forest Props_58: -1812488502
+      Forest Props_112: -180991735
+      Forest Props_45: 1643810683
+      Forest Props_80: -1374263813
+      Forest Props_96: 922408074
+      Forest Props_137: 420735350
+      Forest Props_76: 1139337485
+      Forest Props_271: 1163720392
+      Forest Props_83: -1392831566
+      Forest Props_101: 1204575422
+      Forest Props_204: 5082101
+      Forest Props_200: 417009952
+      Forest Props_8: -1015327404
+      Forest Props_188: -1859607072
+      Forest Props_191: -1369243461
+      Forest Props_7: -289896045
+      Forest Props_250: -1942709592
+      Forest Props_254: 1956248022
+      Forest Props_172: 1233070918
+      Forest Props_214: -1667402113
+      Forest Props_288: 632990137
+      Forest Props_40: 473067577
+      Forest Props_174: -307605650
+      Forest Props_212: 1369126262
+      Forest Props_195: -840937275
+      Forest Props_133: -928290627
+      Forest Props_49: -1536152170
+      Forest Props_72: 912002130
+      Forest Props_284: 1203304212
+      Forest Props_230: -1171581373
+      Forest Props_116: 22878244
+      Forest Props_43: -1726595821
+      Forest Props_27: -882615746
+      Forest Props_48: 1638898308
+      Forest Props_202: -406245526
+      Forest Props_2: 2063211524
+      Forest Props_0: 1334802194
+      Forest Props_35: 1349337964
+      Forest Props_103: -544240984
+      Forest Props_207: -140302516
+      Forest Props_31: -1472410859
+      Forest Props_199: -1396130077
+      Forest Props_67: -1556193807
+      Forest Props_89: 1477232883
+      Forest Props_184: -1938513076
+      Forest Props_180: 1100977958
+      Forest Props_256: -1614518814
+      Forest Props_154: 764821624
+      Forest Props_266: -1266259691
+      Forest Props_273: 1412135698
+      Forest Props_243: -596037334
+      Forest Props_73: -430379548
+      Forest Props_100: 512202382
+      Forest Props_187: 1543827941
+      Forest Props_70: 1811686509
+      Forest Props_86: -2012417705
+      Forest Props_219: 1790635787
+      Forest Props_134: -1738141149
+      Forest Props_206: -1667002592
+      Forest Props_165: 1258714707
+      Forest Props_144: 956279559
+      Forest Props_248: -351656655
+      Forest Props_61: -1839901102
+      Forest Props_231: 298261796
+      Forest Props_265: 1882516772
+      Forest Props_205: -745177422
+      Forest Props_152: -1157889487
+      Forest Props_258: -1818929633
+      Forest Props_281: -1605810973
+      Forest Props_164: -1004943917
+      Forest Props_82: -1530446382
+      Forest Props_9: -489521647
+      Forest Props_69: 13834789
+      Forest Props_12: -552736836
+      Forest Props_240: 63681696
+      Forest Props_50: -1512595163
+      Forest Props_85: 372638558
+      Forest Props_253: 220357654
+      Forest Props_37: -2112586817
+      Forest Props_123: 341382182
+      Forest Props_11: -278114220
+      Forest Props_13: 1373993795
+      Forest Props_201: 112211159
+      Forest Props_192: -1027701704
+      Forest Props_280: -515232650
+      Forest Props_114: -1599656194
+      Forest Props_166: -60575392
+      Forest Props_272: 538265848
+      Forest Props_158: -974866485
+      Forest Props_169: -460174674
+      Forest Props_223: 1815931928
+      Forest Props_185: 941260395
+      Forest Props_234: -1602906300
+      Forest Props_209: 1800587539
+      Forest Props_239: -263949283
+      Forest Props_168: 578197191
+      Forest Props_60: 562411715
+      Forest Props_149: -466022272
+      Forest Props_151: -944442411
+      Forest Props_29: -2038964203
+      Forest Props_287: -1195088855
+      Forest Props_242: -738417754
+      Forest Props_26: 139729399
+      Forest Props_162: 1550347656
+      Forest Props_102: -511617817
+      Forest Props_218: 2012724468
+      Forest Props_285: -240659471
+      Forest Props_105: 1700178660
+      Forest Props_44: -1453776262
+      Forest Props_208: -504016293
+      Forest Props_55: 1754396244
+      Forest Props_245: 1707818000
+      Forest Props_127: -585950699
+      Forest Props_171: 206687135
+      Forest Props_263: 682724390
+      Forest Props_167: -685429907
+      Forest Props_198: -1739107519
+      Forest Props_4: -2048262750
+      Forest Props_276: 2009118462
+      Forest Props_161: 1661023565
+      Forest Props_63: 1681847883
+      Forest Props_25: 17708982
+      Forest Props_88: 1494004014
+      Forest Props_217: -785437219
+      Forest Props_115: 680165302
+      Forest Props_17: 1215464716
+      Forest Props_19: -270306712
+      Forest Props_157: 987886961
+      Forest Props_173: 1587941799
+      Forest Props_64: 1858478983
+      Forest Props_210: -1845406348
+      Forest Props_130: -893982125
+      Forest Props_145: 1427464710
+      Forest Props_160: 1459320979
+      Forest Props_176: -2127160167
+      Forest Props_18: -1376619654
+      Forest Props_124: 262051217
+      Forest Props_38: -1665983660
+      Forest Props_252: -579570713
+      Forest Props_52: -249177577
+      Forest Props_259: 1204977022
+      Forest Props_279: -1260711116
+      Forest Props_104: 1249293295
+      Forest Props_197: -2064802922
+      Forest Props_237: -320504461
+      Forest Props_274: -1725529273
+      Forest Props_39: 1855060220
+      Forest Props_150: -80289849
+      Forest Props_78: 1351120297
+      Forest Props_6: -444598167
+      Forest Props_163: 589149183
+      Forest Props_156: -913499695
+      Forest Props_182: -1345526693
+      Forest Props_194: -402786860
+      Forest Props_260: -1834908370
+      Forest Props_277: 724297577
+      Forest Props_23: -688337266
+      Forest Props_51: -729785431
+      Forest Props_186: -857698025
+      Forest Props_225: 1800133715
+      Forest Props_282: -1876841975
+      Forest Props_129: 452334093
+      Forest Props_36: 687306697
+      Forest Props_22: -1681010133
+      Forest Props_264: 2001312852
+      Forest Props_203: 402101304
+      Forest Props_226: 132180094
+      Forest Props_278: 2138463853
+      Forest Props_244: -1171780076
+      Forest Props_213: 2125527087
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
