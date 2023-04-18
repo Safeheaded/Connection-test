@@ -23,11 +23,13 @@ public class Player : MonoBehaviour
     public string userName { get; set; }
     public Controls controls;
     public Animator animator;
+    private SpriteRenderer renderer;
     // Start is called before the first frame update
     void Start()
     {
         controls = new Controls();
         animator = GetComponent<Animator>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -48,11 +50,13 @@ public class Player : MonoBehaviour
         if (controls.left)
         {
             movement.x = -1;
+            renderer.flipX= true;
         }
 
         if (controls.right)
         {
             movement.x = 1;
+            renderer.flipX= false;
         }
 
         if(movement == Vector3.zero)
