@@ -36,7 +36,7 @@ public class EventDto
 public class PlayersController : MonoBehaviour
 {
     [SerializeField]
-    Player playerPrefab;
+    List<Player> playerPrefab;
 
     [SerializeField]
     TextMeshProUGUI codeText;
@@ -144,7 +144,8 @@ public class PlayersController : MonoBehaviour
                     print(wsEvent.event_name);
                     if(wsEvent.event_name == "player_added")
                     {
-                        var addedPlayer = Instantiate(playerPrefab);
+                        int randomIndex = UnityEngine.Random.Range(0, 3);
+                        var addedPlayer = Instantiate(playerPrefab[randomIndex]);
                         addedPlayer.id = wsEvent.id;
                         addedPlayer.userName = wsEvent.nickname;
                         addedPlayer.GetComponentInChildren<TextMeshProUGUI>().text = addedPlayer.userName;

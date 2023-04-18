@@ -4,7 +4,7 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 
-
+[System.Serializable]
 public class Player : MonoBehaviour
 {
 
@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     public int id { get; set; }
     public string userName { get; set; }
     public Controls controls;
-    private Animator animator;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
