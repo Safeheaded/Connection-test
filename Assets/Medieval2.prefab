@@ -148,8 +148,9 @@ GameObject:
   - component: {fileID: 7956319038511459368}
   - component: {fileID: 9163051197410416596}
   - component: {fileID: 325182528061790049}
+  - component: {fileID: 1593270885}
   m_Layer: 0
-  m_Name: veloc
+  m_Name: Medieval2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +213,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea178cec80ac5f246b6be16280527660, type: 3}
+  m_Sprite: {fileID: 1463059481, guid: a24fb70d4d3a04247992371729546c24, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -235,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9546e1bbb7cb0543a1accf7fa2e696d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 11.32
+  speed: 11
 --- !u!61 &9163051197410416596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -253,7 +254,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 1.58}
+    oldSize: {x: 0.84, y: 0.96}
     newSize: {x: 4, y: 1.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -283,6 +284,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1593270885
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7956319038511459371}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bcbe1ea42f22dd94c8b17cbfd435643a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8619572651147475921
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,10 +22,12 @@ public class Player : MonoBehaviour
     public int id { get; set; }
     public string userName { get; set; }
     public Controls controls;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         controls = new Controls();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,17 @@ public class Player : MonoBehaviour
         if (controls.right)
         {
             movement.x = 1;
+        }
+
+        if(movement == Vector3.zero)
+        {
+            print("Is idle");
+            animator.SetBool("isRunning", false);
+        }
+        else
+        {
+            print("Is running");
+            animator.SetBool("isRunning", true);
         }
 
         transform.Translate(movement * speed * Time.deltaTime);
