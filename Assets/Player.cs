@@ -39,26 +39,26 @@ public class Player : MonoBehaviour
     {
         var movement = Vector3.zero;
 
-        if (controls.top)
-        {
-            movement.y = 1;
-        }
-
-        if (controls.bottom)
-        {
-            movement.y = -1;
-        }
-
-        if (controls.left)
+        if (Joystick.GetButton(id, GameControls.ArrowLeft))
         {
             movement.x = -1;
             renderer.flipX= true;
         }
 
-        if (controls.right)
+        if (Joystick.GetButton(id, GameControls.ArrowRight))
         {
             movement.x = 1;
             renderer.flipX= false;
+        }
+
+        if (Joystick.GetButton(id, GameControls.ArrowDown))
+        {
+            movement.y = -1;
+        }
+
+        if (Joystick.GetButton(id, GameControls.ArrowUp))
+        {
+            movement.y = 1;
         }
 
         if (movement == Vector3.zero)
